@@ -1,0 +1,44 @@
+body
+{
+    background-color: black;
+}
+.content
+{
+    padding: 70px;
+    padding-left:100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.pass
+{
+    padding-top:20px;
+}
+.btn
+{
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.4s;
+
+}
+.btn:hover
+{
+    background-color: white;
+    color: black;
+}
+.but
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
