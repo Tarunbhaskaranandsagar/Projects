@@ -18,8 +18,8 @@ ScrollTrigger.create({
   ScrollTrigger.create({
     
     trigger: 'footer',
-    start:"top 70%",
-    end:"bottom 50%", 
+    start:"top 73%",
+    end:"bottom 0%", 
   
     onEnter: () => {
       gsap.to('body', { duration: 1.0, backgroundColor: '#fff',color: '#000'})
